@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="kilogram,kilogram.main,kilogram.service-db-saver,kilogram.service-db-saver.main,kilogram.service-db-saver.test,kilogram.service-event-maker,kilogram.service-event-maker.main,kilogram.service-event-maker.test,kilogram.test" />
+  </component>
+</project>
