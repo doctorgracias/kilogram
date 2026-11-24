@@ -44,7 +44,9 @@ lazy val root = (project in file("."))
       "com.beachape" %% "enumeratum-circe"  % enumeratumVersion,
 
       "org.liquibase" % "liquibase-core"  % "4.27.0",
-      "org.postgresql" % "postgresql"     % "42.7.3"
+      "org.postgresql" % "postgresql"     % "42.7.3",
+
+      "com.auth0"                      % "java-jwt"                       % "4.4.0"
     ),
 
     dependencyOverrides ++= Seq(
