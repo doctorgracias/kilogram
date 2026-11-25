@@ -27,7 +27,7 @@ lazy val root = (project in file("."))
       "dev.zio" %% "zio-kafka"         % zioKafkaVersion,
       "dev.zio" %% "zio-kafka-testkit" % zioKafkaVersion % Test,
 
-      "com.softwaremill.sttp.tapir" %% "tapir-netty-server-zio"  % tapirVersion,
+      "com.softwaremill.sttp.tapir" %% "tapir-zio-http-server" % tapirVersion,
       "com.softwaremill.sttp.tapir" %% "tapir-json-circe"        % tapirVersion,
       "com.softwaremill.sttp.tapir" %% "tapir-swagger-ui-bundle" % tapirVersion,
 
